@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LimitInputTextControl_Example' do
+  pod 'LimitInputTextControl', :path => '../'
+
+  target 'LimitInputTextControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
