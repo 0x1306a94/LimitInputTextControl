@@ -2,10 +2,10 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode10.0
+osx_image: xcode9.4.1
 language: objective-c
 # cache: cocoapods
-podfile: Example/Podfile
+#podfile: Example/Podfile
 
 before_install:
   - env
@@ -14,5 +14,6 @@ before_install:
   - xcpretty --version
 
 script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/LimitInputTextControl.xcworkspace -scheme LimitInputTextControl-Example -sdk iphonesimulator12.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+  # - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/LimitInputTextControl.xcworkspace -scheme LimitInputTextControl-Example -sdk iphonesimulator11.4 ONLY_ACTIVE_ARCH=NO | xcpretty
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/LimitInputTextControl.xcworkspace -scheme LimitInputTextControl-Example -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' ONLY_ACTIVE_ARCH=NO | xcpretty
   - pod lib lint --allow-warnings

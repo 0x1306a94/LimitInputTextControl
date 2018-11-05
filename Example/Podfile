@@ -7,6 +7,5 @@ target 'LimitInputTextControl_Example' do
   target 'LimitInputTextControl_Tests' do
     inherit! :search_paths
 
-    
   end
 end
