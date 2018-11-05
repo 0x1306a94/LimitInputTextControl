@@ -40,7 +40,7 @@
     }
     return self;
 }
-- (instancetype)initWithMaxLine:(NSInteger)maxLine maxLength:(NSInteger)maxLength {
+- (instancetype)initWithMaxLine:(NSUInteger)maxLine maxLength:(NSUInteger)maxLength {
     if (self == [super init]) {
         self.maxLine = maxLine > 0 ? maxLine : 1;
         self.maxLength = maxLength;

@@ -1,5 +1,5 @@
 PODS:
-  - LimitInputTextControl (0.1.0)
+  - LimitInputTextControl (0.0.1)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LimitInputTextControl: 1bdaf8ff69168d8389c7ed856ea6c6349e2da14f
+  LimitInputTextControl: f17131bc013984b215d62512873f6a0f21102e62
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 8925abed792b320557e9a62bd32a625977ffdda5

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'LimitInputTextControl'
-    s.version          = '0.1.0'
+    s.version          = '0.0.1'
     s.summary          = '限制输入长度以及字数控件'
     s.description      = <<-DESC
     支持 UITextField 文字输入字数限制

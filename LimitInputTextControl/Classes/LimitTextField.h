@@ -10,8 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LimitTextField : UITextField
-/** 最大输入字符长度 */
-@property (nonatomic, assign) NSInteger maxLength;
+/** 最大输入字符长度 0 无限制, 默认为0 */
+@property (nonatomic, assign) NSUInteger maxLength;
 
 /**
  实例化
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param maxLength 最大输入字符长度
  @return instance
  */
-- (instancetype)initWithMaxLength:(NSInteger)maxLength NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithMaxLength:(NSUInteger)maxLength NS_DESIGNATED_INITIALIZER;
 @end
 
 NS_ASSUME_NONNULL_END

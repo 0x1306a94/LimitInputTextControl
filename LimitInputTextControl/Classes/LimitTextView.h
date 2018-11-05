@@ -11,9 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LimitTextView : UITextView
 /** 最大行数 最小为1, 默认1 */
-@property (nonatomic, assign) NSInteger maxLine;
+@property (nonatomic, assign) NSUInteger maxLine;
 /** 最大长度 0 为无限制, 默认为0 */
-@property (nonatomic, assign) NSInteger maxLength;
+@property (nonatomic, assign) NSUInteger maxLength;
 /** 控件最小高度, 默认为 使用字体高度 */
 @property (nonatomic, assign) CGFloat minHeight;
 /** 占位文字 */
@@ -28,8 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
  @param maxLength 最大长度 0 为无限制, 默认为0
  @return LimitTextView instance
  */
-- (instancetype)initWithMaxLine:(NSInteger)maxLine
-                      maxLength:(NSInteger)maxLength NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithMaxLine:(NSUInteger)maxLine
+                      maxLength:(NSUInteger)maxLength NS_DESIGNATED_INITIALIZER;
 @end
 
 NS_ASSUME_NONNULL_END
