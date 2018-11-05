@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051E9DB6B0105610896F9F46 /* Pods_LimitInputTextControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5865D524767C6084869903 /* Pods_LimitInputTextControl_Example.framework */; };
+		2F3C77209A764E2DA060C156 /* libPods-LimitInputTextControl_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECCE8BC1FD1409A28570A4E /* libPods-LimitInputTextControl_Example.a */; };
+		3CB76766758B7CD8FEE6CE76 /* libPods-LimitInputTextControl_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4476B6DE76F3C9BE630C5 /* libPods-LimitInputTextControl_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EBBD96C03B1E73162D2AE4F2 /* Pods_LimitInputTextControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61198BC9858925A31AE855E0 /* Pods_LimitInputTextControl_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		2AEE861BD618187DE7D36246 /* Pods-LimitInputTextControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimitInputTextControl_Example.debug.xcconfig"; path = "Target Support Files/Pods-LimitInputTextControl_Example/Pods-LimitInputTextControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2DE635C3E307195D4ACCE1B0 /* LimitInputTextControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LimitInputTextControl.podspec; path = ../LimitInputTextControl.podspec; sourceTree = "<group>"; };
+		2DE635C3E307195D4ACCE1B0 /* LimitInputTextControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LimitInputTextControl.podspec; path = ../LimitInputTextControl.podspec; sourceTree = "<group>"; };
+		3ECCE8BC1FD1409A28570A4E /* libPods-LimitInputTextControl_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LimitInputTextControl_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LimitInputTextControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitInputTextControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,14 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61198BC9858925A31AE855E0 /* Pods_LimitInputTextControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LimitInputTextControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C5865D524767C6084869903 /* Pods_LimitInputTextControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LimitInputTextControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443EC30BF22A3399BDC0480 /* Pods-LimitInputTextControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimitInputTextControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LimitInputTextControl_Tests/Pods-LimitInputTextControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95E29D2D44468803551E5E33 /* Pods-LimitInputTextControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimitInputTextControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-LimitInputTextControl_Tests/Pods-LimitInputTextControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B70E61DA83D2AFBEA4F0D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F5AC7BB25C724E5784BBAC3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B70E61DA83D2AFBEA4F0D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3D4476B6DE76F3C9BE630C5 /* libPods-LimitInputTextControl_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LimitInputTextControl_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AC7BB25C724E5784BBAC3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FDA5288F5AF2EB2839ECE276 /* Pods-LimitInputTextControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimitInputTextControl_Example.release.xcconfig"; path = "Target Support Files/Pods-LimitInputTextControl_Example/Pods-LimitInputTextControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				051E9DB6B0105610896F9F46 /* Pods_LimitInputTextControl_Example.framework in Frameworks */,
+				2F3C77209A764E2DA060C156 /* libPods-LimitInputTextControl_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				EBBD96C03B1E73162D2AE4F2 /* Pods_LimitInputTextControl_Tests.framework in Frameworks */,
+				3CB76766758B7CD8FEE6CE76 /* libPods-LimitInputTextControl_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,6 @@
 				8443EC30BF22A3399BDC0480 /* Pods-LimitInputTextControl_Tests.debug.xcconfig */,
 				95E29D2D44468803551E5E33 /* Pods-LimitInputTextControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				7C5865D524767C6084869903 /* Pods_LimitInputTextControl_Example.framework */,
-				61198BC9858925A31AE855E0 /* Pods_LimitInputTextControl_Tests.framework */,
+				3ECCE8BC1FD1409A28570A4E /* libPods-LimitInputTextControl_Example.a */,
+				A3D4476B6DE76F3C9BE630C5 /* libPods-LimitInputTextControl_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BCD18FF615E4A006201350ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,10 +242,13 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SS;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 0x1306a94;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -337,28 +338,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BCD18FF615E4A006201350ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LimitInputTextControl_Example/Pods-LimitInputTextControl_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LimitInputTextControl/LimitInputTextControl.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LimitInputTextControl.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LimitInputTextControl_Example/Pods-LimitInputTextControl_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,12 +477,17 @@
 			baseConfigurationReference = 2AEE861BD618187DE7D36246 /* Pods-LimitInputTextControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LimitInputTextControl/LimitInputTextControl-Prefix.pch";
 				INFOPLIST_FILE = "LimitInputTextControl/LimitInputTextControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,12 +497,17 @@
 			baseConfigurationReference = FDA5288F5AF2EB2839ECE276 /* Pods-LimitInputTextControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LimitInputTextControl/LimitInputTextControl-Prefix.pch";
 				INFOPLIST_FILE = "LimitInputTextControl/LimitInputTextControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

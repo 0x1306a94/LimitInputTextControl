@@ -1,0 +1,23 @@
+PODS:
+  - LimitInputTextControl (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LimitInputTextControl (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LimitInputTextControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LimitInputTextControl: 1bdaf8ff69168d8389c7ed856ea6c6349e2da14f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: f9a67bfd0be463bf0b7cce14453a3d87303efe28
+
+COCOAPODS: 1.6.0.beta.2

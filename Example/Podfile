@@ -1,6 +1,7 @@
-use_frameworks!
+#use_frameworks!
 
 target 'LimitInputTextControl_Example' do
+  pod 'Masonry'
   pod 'LimitInputTextControl', :path => '../'
 
   target 'LimitInputTextControl_Tests' do

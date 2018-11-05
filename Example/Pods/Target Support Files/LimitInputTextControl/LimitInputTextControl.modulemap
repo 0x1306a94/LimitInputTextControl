@@ -1,0 +1,6 @@
+framework module LimitInputTextControl {
+  umbrella header "LimitInputTextControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
