@@ -1,7 +1,5 @@
 # LimitInputTextControl
-<<<<<<< HEAD
 iOS 限制输入长度控件
-=======
 
 [![CI Status](https://img.shields.io/travis/0x1306a94/LimitInputTextControl.svg?style=flat)](https://travis-ci.org/0x1306a94/LimitInputTextControl)
 [![Version](https://img.shields.io/cocoapods/v/LimitInputTextControl.svg?style=flat)](https://cocoapods.org/pods/LimitInputTextControl)
@@ -30,4 +28,3 @@ pod 'LimitInputTextControl'
 ## License
 
 LimitInputTextControl is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
