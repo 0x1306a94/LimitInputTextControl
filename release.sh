@@ -48,7 +48,7 @@ function add_tag() {
 # 验证提交
 function validation_submit() {
 	pod cache clean $1 --all
-	pod repo push $2 \
+	pod trunk push $2 \
 	--allow-warnings \
 	--verbose
 	pod cache clean ${1} --all
